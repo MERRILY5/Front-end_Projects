@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(Todo\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#one {
+    flex: 1;
+}
+
+table {
+    width: fit-content;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+th, td {
+    padding: 20px;
+    border: none;
+    text-align: left;
+}
+
+#th{
+    background-color: #333;
+    
+}
+
+
+th {
+    background-color: #af4261;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td {
+    background-color: white;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #af4261;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #f3ec78;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #af4261;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f3ec78;
+    color: #af4261;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li button {
+    background-color: #ff4b5c;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+li button:hover {
+    background-color: #ff7979;
+}

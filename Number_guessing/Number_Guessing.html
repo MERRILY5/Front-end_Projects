@@ -1,0 +1,43 @@
+<!-- NUMBER GUESSING -->
+
+<!--<body>
+    <h1>Guess the Number</h1>
+    <input id="num1">
+    <button onclick="check()">Check</button>
+    <p id="checker">You are Wrong/Right</p>
+    <p id="guess">The Number is:  </p>
+    <p id="pscore">Player Score: 0</p>
+    <p id="compscore">Computer Score: 0</p>
+
+    <script>
+        var playerScore = 0
+        var computerScore = 0
+        var number = document.getElementById("num1")
+        var result = document.getElementById("checker")
+        var guess = document.getElementById("guess")
+        var player = document.getElementById("pscore")
+        var computer = document.getElementById("compscore")
+
+        function check()
+        {   
+            var randomNumber = Math.floor(Math.random()*10)
+            var get = number.value
+            if (get == randomNumber)
+            {
+                playerScore += 1
+                result.textContent = "Right !"
+                guess.textContent = `The Number is: ${randomNumber}`
+                player.textContent = "Player Score: "+playerScore
+                alert("YOU WON")
+            }
+            else
+            {
+                computerScore+=1
+                result.textContent = "Wrong !"
+                guess.textContent = `The Number is: ${randomNumber}`
+                computer.textContent = "Computer Score: "+computerScore
+            }
+        }
+
+    </script>
+</body> -->
